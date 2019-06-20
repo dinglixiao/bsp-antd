@@ -1,12 +1,17 @@
 import React from 'react';
-import {Button} from 'antd';
+import {Col, Row} from 'antd';
 import './index.less';
 
 function Admin() {
     return (
-        <div className="Admin">
-            <Button type="primary">Button</Button>
-        </div>
+        <Row>
+            <Col span={3}>
+                Left
+            </Col>
+            <Col span={21}>
+                Right
+            </Col>
+        </Row>
     );
 }
 
