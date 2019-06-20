@@ -9107,13 +9107,6 @@ redux-action@^1.2.2:
     clone "2"
     uuid "3"
 
-redux-router@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npm.taobao.org/redux-router/download/redux-router-2.1.2.tgz#034724bad08f41baf754db4d22e2d858adb64f11"
-  integrity sha1-A0ckutCPQbr3VNtNIuLYWK22TxE=
-  dependencies:
-    deep-equal "^1.0.1"
-
 redux-saga@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/redux-saga/download/redux-saga-1.0.3.tgz#23e1c71fca6752ce52db3aaba4ecca657d7a9a1f"

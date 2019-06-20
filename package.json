@@ -19,7 +19,6 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "redux-action": "^1.2.2",
-    "redux-router": "^2.1.2",
     "redux-saga": "^1.0.3"
   },
   "scripts": {
