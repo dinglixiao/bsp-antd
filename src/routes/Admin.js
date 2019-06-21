@@ -8,12 +8,14 @@ const {Header, Footer, Sider, Content} = Layout;
 export default () => {
 
   return (
-      <Layout style={{height: "calc(100vh)"}}>
-        <Sider>Sider</Sider>
+      <Layout className="container">
+        <Header className="header">Header</Header>
         <Layout>
-          <Header>Header</Header>
-          <Content>Content</Content>
-          <Footer>Footer</Footer>
+          <Sider>Sider</Sider>
+          <Layout>
+            <Content>Content</Content>
+            <Footer>Footer</Footer>
+          </Layout>
         </Layout>
       </Layout>
   );
