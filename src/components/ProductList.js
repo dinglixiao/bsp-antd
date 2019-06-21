@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {Button, Popconfirm, Table} from 'antd';
 
 const ProductList = ({onDelete, products}) => {
+
   const columns = [{
     title: 'Name',
     dataIndex: 'name',
@@ -16,6 +17,7 @@ const ProductList = ({onDelete, products}) => {
       );
     },
   }];
+
   return (
       <Table
           dataSource={products}
