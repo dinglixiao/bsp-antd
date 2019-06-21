@@ -1,25 +1,23 @@
 import React from 'react';
-import NavLeft from "../components/NavLeft";
-import Header from "../components/Header";
-import Content from "../components/Content";
-import Footer from "../components/Footer";
+import {Layout} from 'antd';
 
 import "../styles/admin.less"
-import {Col, Row} from "antd";
+
+const {Header, Footer, Sider, Content} = Layout;
 
 const Products = () => {
 
   return (
-        <Row className="container">
-          <Col className="nav-left" span="3">
-            <NavLeft/>
-          </Col>
-          <Col className="main" span="21">
-            <Header/>
-            <Content/>
-            <Footer/>
-          </Col>
-        </Row>
+      <div>
+        <Layout>
+          <Sider>Sider</Sider>
+          <Layout>
+            <Header>Header</Header>
+            <Content>Content</Content>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Layout>
+      </div>
   );
 };
 
