@@ -5,7 +5,7 @@ import "../styles/admin.less"
 
 const {Header, Footer, Sider, Content} = Layout;
 
-const Products = () => {
+export default () => {
 
   return (
       <Layout style={{height: "calc(100vh)"}}>
@@ -18,5 +18,3 @@ const Products = () => {
       </Layout>
   );
 };
-
-export default Products;
