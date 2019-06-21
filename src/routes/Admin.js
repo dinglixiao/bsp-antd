@@ -8,16 +8,14 @@ const {Header, Footer, Sider, Content} = Layout;
 const Products = () => {
 
   return (
-      <div>
+      <Layout style={{height: "calc(100vh)"}}>
+        <Sider>Sider</Sider>
         <Layout>
-          <Sider>Sider</Sider>
-          <Layout>
-            <Header>Header</Header>
-            <Content>Content</Content>
-            <Footer>Footer</Footer>
-          </Layout>
+          <Header>Header</Header>
+          <Content>Content</Content>
+          <Footer>Footer</Footer>
         </Layout>
-      </div>
+      </Layout>
   );
 };
 
